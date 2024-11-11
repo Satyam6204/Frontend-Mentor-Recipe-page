@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -31,7 +33,7 @@ hr{
     width: 460px;
 }
 .box h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Young Serif", serif;
     margin-left: 25px;
 
 }
@@ -46,11 +48,13 @@ h4{
     margin-left: 25px;
 }
 p{
+   margin-top: 10px;
     font-size: 16px;
     margin-left: 25px;
 
 }
 span{
+    font-family: "Outfit", sans-serif;
     color:black;
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,6 +64,7 @@ span{
     width: 400px;
     background-color:  hsl(330, 100%, 98%);
     margin-top: 20px;
+    margin-left: 20px;
     padding-left: 50px;
 }
 .ul2{
@@ -67,9 +72,11 @@ span{
     padding-left: 50px;
 }
 .ul3{
-
+    font-size: 14px;
+    background-color:  hsl(330, 100%, 98%);
     margin-top: 20px;
     padding-left: 50px;
+    padding-right: 30px;
 }
 .ul1 li{
     list-style-type:square;
@@ -86,6 +93,7 @@ li::marker{
 table tr td{
     padding-left: 40px;
     width: 200px;
+
     
 }
 #t{
