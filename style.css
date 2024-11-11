@@ -2,13 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
-
 body{
-    background-color:  hsl(332, 51%, 32%);
+    background-color: hsl(30, 18%, 87%);
 }
-
-
-
 main{
     display: flex;
     justify-content: center;
@@ -24,44 +20,74 @@ hr{
 }
 .box{
     border-radius: 20px;
-    height: 1100px;
+    height: 1200px;
     width: 500px;
-    background-color: wheat;
+    background-color:hsl(0, 0%, 100%);
 }
-
 .box img{
     margin: 20px 20px 20px;
     border-radius: 10px;
     height: 200px;
     width: 460px;
 }
-
 .box h1{
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 25px;
+
 }
 h3{
     margin-top: 20px;
+    color:hsl(14, 45%, 36%);
+    margin-left: 25px;
 }
+h4{
+    margin-top: 30px;
+    color: hsl(332, 51%, 32%);
+    margin-left: 25px;
+}
+p{
+    font-size: 16px;
+    margin-left: 25px;
 
+}
+span{
+    color:black;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .ul1{
+    padding: 20px 0px 20px 0px;
+    width: 400px;
+    background-color:  hsl(330, 100%, 98%);
     margin-top: 20px;
-    background-color: rgb(192, 197, 117);
     padding-left: 50px;
 }
 .ul2{
     margin-top: 20px;
-    background-color: rgb(117, 101, 156);
     padding-left: 50px;
 }
-
 .ul3{
+
     margin-top: 20px;
-    background-color: rgb(152, 187, 186);
     padding-left: 50px;
 }
-
-
+.ul1 li{
+    list-style-type:square;
+}
+.ul2 li{
+    list-style-type:square;
+}
+.ul3 li{
+    list-style-type:lower-number;
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+}
 table tr td{
-    
+    padding-left: 40px;
     width: 200px;
+    
+}
+#t{
+    color: hsl(332, 51%, 32%);
 }
